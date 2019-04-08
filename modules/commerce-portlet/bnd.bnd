@@ -1,0 +1,4 @@
+Bundle-Name: commerce-portlet
+Bundle-SymbolicName: ph.francisco.web.commerce
+Bundle-Version: 1.0.0
+Export-Package: ph.francisco.web.commerce.constants

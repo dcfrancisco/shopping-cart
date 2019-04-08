@@ -1,0 +1,10 @@
+Bundle-Name: commerce-doc-api
+Bundle-SymbolicName: ph.francisco.docs.commerce.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	ph.francisco.docs.commerce.exception,\
+	ph.francisco.docs.commerce.model,\
+	ph.francisco.docs.commerce.service,\
+	ph.francisco.docs.commerce.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../commerce-doc-service/service.xml
